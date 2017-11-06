@@ -4,11 +4,19 @@ Yeni fonksiyonlar
 
 /* Eski fonksiyon hali : */
 
-var fonksiyon = function(param){ console.log(Merhaba ${param}); } fonksiyon(“Dayanç”);
+var fonksiyon = function(param){
+  console.log(Merhaba ${param});
+}
+
+fonksiyon(“Dayanç”);
 
 /* Yeni fonksiyon hali */
 
-var fonksiyon = (param) => { console.log(‘Merhaba ${param}’); } fonksiyon(“Dayanç”);
+var fonksiyon = (param) => {
+  console.log(‘Merhaba ${param}’);
+}
+
+fonksiyon(“Dayanç”);
 
 /* Farkları : */
 
