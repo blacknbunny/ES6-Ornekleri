@@ -19,7 +19,8 @@ if(degisken.endsWith(“anç”)){
   console.log(“Değişken anç ile bitiyor.”);
 }
 
-.endsWith() fonksiyonunun bir özelliği daha var kaç harfi baz alacağını belirtebiliyoruz
+/* .endsWith() fonksiyonunun bir özelliği daha var kaç harfi baz alacağını belirtebiliyoruz */
+
 if(degisken.endsWith(“ay”, 3)){
   /* Ilk üç harfi baz alarak karşılaştırma yapar */
 }
