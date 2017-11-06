@@ -1,4 +1,4 @@
-# ecmascript6-ornekleri
+# Ecmascript6-ornekleri
 
 Const değişkeni
 
