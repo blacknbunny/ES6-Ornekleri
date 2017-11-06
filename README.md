@@ -12,6 +12,8 @@ const degisken = “Bu bir degisken”;
 
 /* Yukarıdaki değişkenle aynı isimi aldılar fakat farklı kod bloğunda oldukları için aynı sayılmayacaklar. */
 
+***
+
 Let değişkeni
 
 /* Let değişken türü sadece bulunduğu kod bloğu içerisinde değiştirilebilir. */
@@ -24,6 +26,8 @@ for(let i = 0;i < 5;i++){ /* let i değişkeni bloğunda çalıştı ve bitti ar
 
 /* Yukarıdaki örnekte let i değişkeni ilk döngü bloğunda kullanılmış ve yeni bir atama yapılabilir hale gelmiştir. */
 
+***
+
 Fonksiyon parametreleri
 
 /* ES6 ile gelen bir sürü özellik arasında en çok ilgimi çeken bu oldu. */
@@ -34,6 +38,8 @@ function dayanc(isim=”dayanç”, sifre=”dayanc123”){
 
 /* İsim ve Şifre parametresine yapılan atamalar eğer öyle bir parametre girilmez ise belirlediğimizi ata demek oluyor. */
 
+***
+
 Array operatorü
 
 /* Artık arraylarda tek tek çağırmak yerine hepsini birden çağırma özelliği var. */
@@ -43,6 +49,8 @@ var array = [‘Ham1’, ‘Ham2’, ‘Ham3’];
 /* Aşşağıdaki örnek ile array içerisindeki tüm verileri alabiliyoruz. */
 
 console.log(…array);
+
+***
 
 Template String’leri
 
@@ -55,6 +63,8 @@ Template String’leri
 function dayanc(isim=”Dayanç”, sifre=”dayanc123”){ console.log(Benim ismim ${isim} şifrem ise ${sifre}); }
 
 /* Artık `` tırnakları ile yazılara boşluk bırakma + işareti koyup ekleme zahmeti bitti. */
+
+***
 
 # Yeni obje eklemeleri /* ES6 ile gelen objeler ve obje içerisindeki fonksiyonlar çok değişti. */
 
@@ -79,6 +89,8 @@ console.log(obje.dayanc(“Merhaba”));
 
 // Yeni halinde sadece degiskenleri yazıp virgül ile ayırdık. // Fonksiyonları kısaltılmış şekilde yazdık.
 
+***
+
 Yeni fonksiyonlar
 
 /* Fonksiyonları artık daha kısa şekilde yazabiliyoruz ES6 ile. */
@@ -97,6 +109,8 @@ var fonksiyon = (param) => { console.log(‘Merhaba ${param}’); } fonksiyon(�
 
 /* Yeni fonksiyonda ise var degisken = () => ile kısaltılmış şekilde fonksiyonu yazabiliyoruz */
 
+***
+
 Yeni değişken metodları
 
 /* Değişkenler için kullanışlı yeni metodlar. */
@@ -108,6 +122,8 @@ Yeni değişken metodları
 /* .endsWith() : Değişke içeriğinin ne ile bittiği test edilir. / var degisken = “Dayanç”; if(degisken.endsWith(“anç”)){ console.log(“Değişken anç ile bitiyor.”); } / .endsWith() fonksiyonunun bir özelliği daha var kaç harfi baz alacağını belirtebiliyoruz / if(degisken.endsWith(“ay”, 3)){ / Ilk üç harfi baz alarak karşılaştırma yapar */ }
 
 /* .includes() : Değişkenin içinde belirtilen girdi varmı test edilir. */ var bbn = “Dayanç Soyadlı”; if(degisken.includes(‘Soyadlı’)){ console.log(“bbn Değişkeni Soyadlı kelimesini barındırıyor.”); }
+
+***
 
 Set methodu
 
